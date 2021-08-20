@@ -1,0 +1,48 @@
+.content__btn__march{
+    width: 244px;
+    background-color: #99862A;
+    color: white;
+    height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-bottom: 140px;
+    font-family:'Montserrat';
+    font-weight: 500;
+}
+
+.content__btn__march:hover{
+   
+    box-shadow: inset 0 0 0 1px #FFFFFF;
+    cursor: pointer;
+ 
+ }
+
+
+
+ @media screen and (min-width: 1100px) and (max-width: 1580px){
+    .content__btn__march{
+        margin-left: 15%;
+    }
+    .content__btn__march:hover{
+   
+        box-shadow: inset 0 0 0 1px #FFFFFF;
+        cursor: pointer;
+     
+     }
+    }
+
+    @media screen and (min-width: 565px) and (max-width: 1100px){
+        .content__btn__march{
+           
+         margin-left: 38%;
+          margin-top: 3%;
+
+        }
+        .content__btn__march:hover{
+       
+            box-shadow: inset 0 0 0 1px #FFFFFF;
+            cursor: pointer;
+         
+         }
+    }

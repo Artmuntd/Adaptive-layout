@@ -1,0 +1,37 @@
+.button__form{
+    display: inline-block;
+    color: white;
+    background-color: #282828;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    width: 560px;
+    margin-left: 466px;
+    margin-top: 30px;
+}
+
+.button__form:hover { 
+    background: rgba(255,255,255,.2); 
+    cursor: pointer;
+}
+a.button__form:active { background: white; }
+
+@media screen and (min-width: 769px) and (max-width: 1580px){
+    .button__form{
+        margin-left: 6%;
+    }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 769px) {
+        .button__form {
+          
+            margin-left: 11%;
+            margin-top: 26%;
+        }
+        
+            }

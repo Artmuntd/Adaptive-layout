@@ -1,0 +1,7 @@
+.header_menu_pic{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}

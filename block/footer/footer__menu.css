@@ -1,0 +1,41 @@
+.footer__menu{
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 405px;
+    margin-right: 405px;
+    padding-left: 0px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1580px){
+    .footer__menu{
+        max-width: 926px;
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+}
+
+@media screen and (min-width: 815px) and (max-width: 1200px){
+    .footer__menu{
+        max-width: 926px;
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 815px){
+    .footer__menu{
+        
+         display: none;
+
+        
+    }
+}

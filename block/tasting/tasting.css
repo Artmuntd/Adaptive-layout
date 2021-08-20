@@ -1,0 +1,16 @@
+@import url("./__text/tasting__text.css");
+@import url("./images__vine/images__vine.css");
+@import url("./__images/tasting__images.css");
+@import url("./__text/_p/tasting__text_p.css");
+@import url("./form/form__field.css");
+@import url("./form/form__fieldset.css");
+@import url("./form/form__input.css");
+@import url("./form/forms.css");
+@import url("./form/form__number.css");
+@import url("./form/button__form.css");
+.tasting{
+    max-width: 100%;
+    background-color: #282828;
+    height: 767px;
+ 
+}

@@ -1,0 +1,8 @@
+@import url('./__continer__text_about/content__continer__text_about.css');
+@import url('./__continer__text_about/vine.css');
+@import url('./__continer__text_about/vine__text.css');
+@import url('./__continer__text_about/wineglass.css');
+@import url('./__button/content__btn.css');
+.content{
+    max-width: 100%;
+}

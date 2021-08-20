@@ -1,0 +1,5 @@
+@import url("./__header__btn/header__btn.css");
+.header__continer{
+    width: 425px;
+    margin: auto;
+}

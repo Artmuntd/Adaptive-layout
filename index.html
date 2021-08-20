@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "normalize" href= "./vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href='./images/favicon/favicon-32x32.png'>
+    <title>Винный Магазин</title>
+</head>
+<body>
+    <header class="header">
+       <ul class="header__info">
+        <li class = "header__info__website">Винный Магазин</li>
+        <li class = "header__info__address">Новокузнечный переулок</li>
+        <li  class = "header__info__namber">8(888)-888-88-88</li>
+       </ul>
+        <ul class="header__menu">
+          
+            <li class="header__menu__nav">
+              <a class="menu__link_active"  href="#">Каталог</a>
+            </li>
+            <li class="header__menu__nav">
+                <a class="menu__link_active" href="#">Доставка</a>
+            </li>
+            <li class="header__menu__nav">
+                <a class="menu__link_active" href="#">Коллекция</a>
+            </li>
+            <li class="header__menu__nav">
+                <a class="menu__link_active" href="#" >Контакты</a>
+            </li>
+            
+          </ul>
+         <div class="header__continer">
+          <button type="button" class="header__btn btn__vine_map">Винная карта</button>
+          <button type="button" class="header__btn btn_tastingy">Дегустация</button> 
+        </div>
+    </header>
+    <main class="content">
+     <div class="content__continer__text_about">
+        <h2 class = "vine">Лучший вкус, это вкус долголетнего вина</h2>
+        <p class="vine__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.
+        </p>
+        <img class="wineglass" src= "./images/image.png" alt = "стакан">
+     </div>
+     <div class="march">
+         <h2 class= "march__1980"> Март 1980
+             Урожай Марселя
+         </h2>
+         <p class=" march__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+         </p>
+         <div class="images__continer">
+             <img class=" march__photo"  src="./images/Rectangle 11.png" alt= " стакан на винадельне">
+             <img class=" march__photo"  src="./images/Rectangle 12.png" alt= " бутылки на прилавке">
+             <img class=" march__photo"  src="./images/Rectangle 13.png" alt= " бутылки в Магазине">
+         </div>
+         <button type= "button" class= "content__btn__march">Узнать подробнее</button>
+        </div>
+        <div class="tasting"  id="tasting">
+            <div class="images__vine">
+            <img class="tasting__images" src="./images/wine.png" alt= "виноград">
+            <img class="tasting__images" src="./images/image1.png" alt= "бочка">
+            </div>
+            <h2 class="tasting__text">Запись на Дегустацию</h2>
+            <p class="tasting__text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
+            <fieldset class="form__fieldset">
+              <div class ="forms">
+                <div class="form__field">
+                    <input class="form__input" type="text" name="name" pattern="[А-ЯЁ]{1}[а-яё]{1,30}$|([А-ЯЁ]{1}[а-яё]{1,30}-[А-ЯЁ]{1}[а-яё]{1,30})$" placeholder="Имя"  minlength="2" maxlength="30" required />
+                </div>
+                <div class="form__field">
+                    <input class="form__input" type="text" name="email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" placeholder="E-Mail" required />
+                </div>
+                <div class="form__number">
+                    <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="((8|\+7)[\- ]?)(\(?\d{3}\)?[\- ]?)?[\d\- ]{9,10}$" minlength="2" maxlength="18"  required/>
+                </div>
+               </div>
+               <button class="button__form"  class= "content__btn">записаться</button>
+            </fieldset>
+        </div>
+    </main>
+    <footer class ="footer">
+        <ul class="footer__menu__info">
+          
+            <li class="footer__menu__nav">
+              <a class="footer__link_active"  href="#">Главная</a>
+            </li>
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#">Каталог</a>
+            </li>
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#">Поставщики</a>
+            </li>
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#march" >Коллекция</a>
+            </li>
+
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#tasting" >Дегустация</a>
+            </li>
+
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#" >Коллекция 2020</a>
+            </li>
+
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="#" >Контакты</a>
+            </li>
+            
+          </ul>
+          <ul class="footer__menu">
+          
+            <li class = "footer__info__website">Винный Магазин</li>
+
+            <li class = "footer__info__address">8(888)-888-88-88</li>
+             
+            <ul class = "header_menu_pic">
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="https://www.youtube.com/" > <img class="footer__icon" src="./images/Vector.svg" alt="Ютуб"></a>
+            </li>
+
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="https://vk.com/" > <img class="footer__icon" src="./images/Vector2.svg" alt="Вконтакте"></a>
+            </li>
+
+            <li class="footer__menu__nav">
+                <a class="menu__link_active" href="https://www.facebook.com/" > <img class="footer__icon" src="./images/Vector3.svg" alt="Фейсбук"></a>
+            </li>
+        </ul>
+            <li class = "footer__info__address">© LE-CORTE.RU </li>
+            
+          </ul>
+     
+
+    </footer>
+</body>
+</html>

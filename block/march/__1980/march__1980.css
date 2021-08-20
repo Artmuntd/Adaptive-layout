@@ -1,0 +1,23 @@
+.march__1980{
+    max-width: 300px;
+    font-size: 36px;
+    line-height: 54px;
+    margin-left: 405px;
+    margin-top: 194px;
+    font-family:'Playfair Display';
+    font-weight: 700;
+}
+@media screen and (min-width: 1100px) and (max-width: 1580px){
+    .march__1980{
+      margin-left: 9%;
+    }
+    }
+
+
+    @media screen and (min-width: 565px) and (max-width: 1100px){
+      .march__1980{
+        margin-left: 30%;
+        max-width: 469px;
+        margin-top: 3%;
+      }
+  }

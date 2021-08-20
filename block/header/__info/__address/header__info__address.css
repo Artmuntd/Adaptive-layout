@@ -1,0 +1,9 @@
+.header__info__address{
+    max-width: 205px;
+    height: 20px;
+    color: white;
+    font-size: 13px;
+    line-height: 19px;
+    font-family:'Montserrat';
+    font-weight: 500;
+}

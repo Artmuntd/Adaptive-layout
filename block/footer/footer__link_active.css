@@ -1,0 +1,14 @@
+.footer__link_active{
+    height: 20px;
+    color: white;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration: none;
+    font-family:'Montserrat';
+    font-weight: 400;
+}
+
+.footer__link_active:hover{
+    color:tomato;
+    font-size: 110%;
+}

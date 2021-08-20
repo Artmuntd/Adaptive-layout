@@ -1,0 +1,6 @@
+.images__vine {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 60px;
+}

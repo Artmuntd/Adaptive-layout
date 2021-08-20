@@ -1,0 +1,25 @@
+@import url("./__continer/header__continer.css");
+@import url("./__info/header__info.css");
+@import url("./__menu/header__menu.css");
+@import url("./__menu/__nav/header__menu__nav.css");
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../images/bgc\ \(1\).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 900px;
+    background-color:rgba(0,0,0,.3);
+    background-attachment: fixed;
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1580px){
+    .header{
+        max-width: 1580px;
+        background-size: cover;
+    }
+    }
